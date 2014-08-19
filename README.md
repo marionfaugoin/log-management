@@ -9,6 +9,8 @@ curator
 
 Auto Delete of Indices in ElasticSearch
 
+You can find it here: https://github.com/elasticsearch/curator
+
 REQUIREMENTS
 - Python for Windows
 - IDLE (to edit .py files)
@@ -28,6 +30,7 @@ HELP AND SUPPORT
 At any time, curator -h or curator COMMAND -h
 Support: https://github.com/elasticsearch/curator
 (Thanks @untergeek)
+
 I don't own elasticsearch-curator, I simply modified a bit the python code to adapt it to my needs. 
 
 Comments/forks appreciated :)
