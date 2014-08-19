@@ -29,8 +29,21 @@ Note : the -p "" is not necessary for the curator.py script because it has been 
 HELP AND SUPPORT
 At any time, curator -h or curator COMMAND -h
 Support: https://github.com/elasticsearch/curator
-(Thanks @untergeek)
+
+(c) @untergeek
 
 I don't own elasticsearch-curator, I simply modified a bit the python code to adapt it to my needs. 
 
 Comments/forks appreciated :)
+
+
+windows scripts
+==============
+
+compression_script.bat
+
+This allows compression with 7za (7-zip command line executable) http://downloads.sourceforge.net/sevenzip/7za920.zip to zip in 7z your folders if they are 90 days old. (you can change this in the batch script)
+
+extraction_script.bat
+
+This asks the user running the script for parameters, and will extract the correct day selected, and unzip it into a directory chosent by the user.
