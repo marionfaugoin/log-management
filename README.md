@@ -17,6 +17,8 @@ The curator is by [__untergeek__](http://github.com/untergeek).
 
 The windows scripts were written by __me__ thanks to help found online.
 
+See the [__wiki__](https://github.com/marionfaugoin/log-management/wiki) for more information on what will be added next.
+
 # curator
 
 Auto delete of indices in ElasticSearch
