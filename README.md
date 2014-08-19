@@ -9,6 +9,9 @@ Solutions for the log management, internship.
 - Kibana (3.1.0)
 - Java (1.7.0)
 - Ruby (1.7.0)
+- A centralized server that collects log files.
+
+This will present you some tips to improve your log collection.
 
 # curator
 
@@ -38,9 +41,6 @@ Support: https://github.com/elasticsearch/curator
 (c) @untergeek
 
 I don't own elasticsearch-curator, I simply modified a bit the python code to adapt it to my needs. 
-
-Comments/forks appreciated :)
-
 
 # windows scripts
 
