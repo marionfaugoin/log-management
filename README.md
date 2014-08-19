@@ -13,6 +13,10 @@ Solutions for the log management, internship.
 
 This will present you some tips to improve your log collection.
 
+The curator is by untergeek.
+
+The windows scripts were written by me thanks to help found online.
+
 # curator
 
 Auto delete of indices in ElasticSearch
