@@ -28,3 +28,6 @@ HELP AND SUPPORT
 At any time, curator -h or curator COMMAND -h
 Support: https://github.com/elasticsearch/curator
 (Thanks @untergeek)
+I don't own elasticsearch-curator, I simply modified a bit the python code to adapt it to my needs. 
+
+Comments/forks appreciated :)
