@@ -13,7 +13,7 @@ Solutions for the __log management__, internship 2014.
 
 This will present you some tips to __improve your log collection__.
 
-The curator is by [__untergeek__](http://downloads.sourceforge.net/sevenzip/7za920.zip).
+The curator is by [__untergeek__](http://github.com/untergeek).
 
 The windows scripts were written by __me__ thanks to help found online.
 
