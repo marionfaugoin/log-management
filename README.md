@@ -3,7 +3,7 @@ log-management
 
 Solutions for the log management, internship.
 
-REQUIREMENTS
+### requirements
 - Logstash (1.4.2)
 - Elasticsearch (1.2.1)
 - Kibana (3.1.0)
