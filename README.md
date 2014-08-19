@@ -15,7 +15,7 @@ This will present you some tips to improve your log collection.
 
 # curator
 
-## Auto Delete of Indices in ElasticSearch
+Auto delete of indices in ElasticSearch
 
 You can find it here: https://github.com/elasticsearch/curator
 
