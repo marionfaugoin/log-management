@@ -1,6 +1,7 @@
 # Custom pattern for filezilla logs
 # Located in the patterns directory.
 # If you create one new file, don't forget to set the patterns_dir directive.
+# This is regexp (grok : http://grokdebug.herokuapp.com/ )
 
 MAIL \b[a-zA-Z0-9._%-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}\b
 FILEZILLA_DATE %{YEAR}[/-]%{MONTHNUM}[/-]%{MONTHDAY}
