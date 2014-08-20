@@ -3,6 +3,8 @@ log-management
 
 Solutions for the __log management__, internship 2014.
 
+This is to work on Windows.
+
 ### requirements
 - Logstash (1.4.2)
 - Elasticsearch (1.2.1)
