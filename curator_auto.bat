@@ -1,3 +1,5 @@
+:: Simple script to launch curator automatically every day
+
 @echo off
 
 echo -----------------------------------------
