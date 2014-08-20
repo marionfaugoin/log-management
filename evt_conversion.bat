@@ -35,19 +35,19 @@ echo.
 
 :: For Application EventLogs
 echo Application: Starting Log Parser 2.2...
-call logparser "select * into '//172.30.20.10/EOD_Logs/%new_data%/LY-ASD1/Event Log/application.tsv' from '//172.30.20.10/EOD_Logs/%new_data%/LY-ASD1/Event Log/Application.evt' "
+call logparser "select * into '//Server/Directory/%new_data%/Machine/Event Log/application.tsv' from 'Server/Directory/%new_data%/Machine/Event Log/Application.evt' "
 echo Log Parser has finished!
 echo.
 
 :: For Security EventLogs
 echo Security: Starting Log Parser 2.2...
-call logparser "select * into '//172.30.20.10/EOD_Logs/%new_data%/LY-ASD1/Event Log/security.tsv' from '//172.30.20.10/EOD_Logs/%new_data%/LY-ASD1/Event Log/Security.evt' "
+call logparser "select * into 'Server/Directory/%new_data%/Machine/Event Log/security.tsv' from 'Server/Directory/%new_data%/Machine/Event Log/Security.evt' "
 echo Log Parser has finished!
 echo.
 
 :: For System EventLogs
 echo System: Starting Log Parser 2.2...
-call logparser "select * into '//172.30.20.10/EOD_Logs/%new_data%/LY-ASD1/Event Log/system.tsv' from '//172.30.20.10/EOD_Logs/%new_data%/LY-ASD1/Event Log/System.evt' "
+call logparser "select * into 'Server/Directory/%new_data%/Machine/Event Log/system.tsv' from 'Server/Directory/%new_data%/Machine/Event Log/System.evt' "
 echo Log Parser has finished!
 echo.
 
