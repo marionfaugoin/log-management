@@ -13,6 +13,7 @@ echo.
 :: It will compress folders containing logs that are 90 days old. (timeout for indexation in elasticsearch)
 :: Requirements: 7za.exe (7-zip command line executable) in the same folder as the script and root folder 
 :: of the directories to compress.
+:: If all went well, the script will also delete the folder it has just compressed to make room.
 
 :: To get the date it was 90 days (3 months) before ;)
 set day=-90
