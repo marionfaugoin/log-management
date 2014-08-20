@@ -52,10 +52,18 @@ echo Compressing files in the folder %new_data%...
 7za a -t7z d:\Archives\log-archive-%new_data%.7z d:\%new_data%\* -mx9 -r >> log_compression.txt
 :: End of the command line
 echo.
-echo Script completed successfully :) check the debug file if necessary.
+echo Compression completed successfully :) check the debug file if necessary.
+echo.
+
+:: Delete the files that were just compressed.
+:: Check errorlevel
+:: If all went right (no compression failure, etc...) files will be deleted.
+:: Otherwise they won't.
+echo Now trying to delete the files to make room.
+if %ERRORLEVEL%==0 ( rd %new_data% /S /Q ) else ( echo Directory could not be deleted errorlevel/=0 )
+echo Files deleted with success.
 
 :: End of the script
 echo.
 echo 		Compression script completed.
 echo :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-EXIT
