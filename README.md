@@ -63,3 +63,9 @@ This asks the user running the script for parameters, and will extract the __cor
 ### conversion_evt.bat
 
 This script uses __Log Parser 2.2__ to convert .evt in .tsv to be taken into account by Logstash. You just have to change the paths and you're good to go :) This is useful isf you already have all your logs at the same spot, and it will prevent you from having to get them at the source (meaning on __each__ server, which is redundant...).
+
+# JSON file
+
+### template.json
+
+A newly created template to help create predefined mappings for indices, that will be created automatically. Check this [link](http://www.elasticsearch.org/guide/en/elasticsearch/reference/current/indices-templates.html#indices-templates) for more information on template.
