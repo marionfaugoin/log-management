@@ -1,0 +1,10 @@
+# Custom pattern for filezilla logs
+# Located in the patterns directory.
+# If you create one new file, don't forget to set the patterns_dir directive.
+
+MAIL \b[a-zA-Z0-9._%-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}\b
+FILEZILLA_DATE %{YEAR}[/-]%{MONTHNUM}[/-]%{MONTHDAY}
+FILEZILLA_ID %{NOTSPACE}%{BASE10NUM:id}%{NOTSPACE}
+FILEZILLA_IP %{NOTSPACE}%{IPV4:ip}%{NOTSPACE}
+FILEZILLA_DATESTAMP %{MONTHNUM}/%{MONTHDAY}/%{YEAR} %{HOUR}:%{MINUTE}:%{SECOND}
+FILEZILLA_LOG %{GREEDYDATA:date} %{GREEDYDATA:time} %{WORD:clock_sys} %{NOTSPACE} %{MAIL:mail} %{FILEZILLA_IP} %{GREEDYDATA:logmsg}
