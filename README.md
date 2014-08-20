@@ -10,6 +10,7 @@ Solutions for the __log management__, internship 2014.
 - Java (1.7.0)
 - Ruby (1.7.0)
 - A centralized server that collects log files.
+- Log Parser 2.2 (Microsoft)
 
 This will present you some tips to __improve your log collection__.
 
@@ -60,9 +61,13 @@ This asks the user running the script for parameters, and will extract the __cor
 
 # windows event logs
 
-### conversion_evt.bat
+### evt_conversion_simple.bat
 
 This script uses __Log Parser 2.2__ to convert .evt in .tsv to be taken into account by Logstash. You just have to change the paths and you're good to go :) This is useful isf you already have all your logs at the same spot, and it will prevent you from having to get them at the source (meaning on __each__ server, which is redundant...).
+
+### evt_conversion.bat
+
+This script is to be run every day to check for new files to convert (with a scheduled task.) This allows the automatization of the conversion of evt windows log events to humand-readable and more importantly, logstash-readable files.
 
 # JSON file
 
