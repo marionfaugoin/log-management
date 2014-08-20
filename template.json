@@ -1,0 +1,16 @@
+{
+	"template": "a pattern the new index has to match",
+	"mappings": {
+		"type_1": {
+			"properties": {
+				"field1": {
+					"type": "date",
+					"format": "dateOptionalTime"
+				},
+				"field2": {
+					"type": "string"
+				},
+			}
+		}
+	}
+}
